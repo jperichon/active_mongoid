@@ -40,7 +40,7 @@ module ActiveMongoid
 
         module ClassMethods
 
-          private
+          protected
 
           def existence_check(name)
             module_eval <<-END
